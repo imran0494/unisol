@@ -86,7 +86,7 @@ const WasterMgmt = () => {
         <div className="imgPostion">
           <div className="ml-auto float-end mt-3 img mb-5">
             <img
-              src="../../public/pattern1.png"
+              src="./pattern1.png"
               alt="not available"
               className="img-fluid"
             />
@@ -167,7 +167,7 @@ const WasterMgmt = () => {
             </div>
             <div className="col-lg-4 order-lg-2 order-1 d-flex justify-content-center p-4">
               <img
-                src="../../public/solidwaste.png"
+                src="./solidwaste.png"
                 alt="not available"
                 className="img-fluid my-auto"
               />
@@ -176,25 +176,13 @@ const WasterMgmt = () => {
           <div className="container mt-5">
             <div className="row text-center">
               <div className="col-12 col-sm-4 mb-4">
-                <img
-                  src="../../public/bucket1.png"
-                  alt="Bucket 1"
-                  className="img-fluid"
-                />
+                <img src="./bucket1.png" alt="Bucket 1" className="img-fluid" />
               </div>
               <div className="col-12 col-sm-4 mb-4">
-                <img
-                  src="../../public/bucket2.png"
-                  alt="Bucket 2"
-                  className="img-fluid"
-                />
+                <img src="./bucket2.png" alt="Bucket 2" className="img-fluid" />
               </div>
               <div className="col-12 col-sm-4 mb-4">
-                <img
-                  src="../../public/bucket3.png"
-                  alt="Bucket 3"
-                  className="img-fluid"
-                />
+                <img src="./bucket3.png" alt="Bucket 3" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -206,7 +194,7 @@ const WasterMgmt = () => {
           <div className="row bg-cover">
             <div className="col d-flex justify-content-center align-items-center">
               <img
-                src="../../public/map.png"
+                src="./map.png"
                 alt="Map"
                 className="img-fluid"
                 style={{
@@ -243,7 +231,7 @@ const WasterMgmt = () => {
           <div className="row">
             <div className="col d-flex flex-column flex-md-row align-items-center p-2 border-2 shadow m-2">
               <img
-                src="../../public/services.png"
+                src="./services.png"
                 alt="Services"
                 className="img-fluid me-3"
                 style={{ width: "50px", height: "50px" }}
@@ -255,7 +243,7 @@ const WasterMgmt = () => {
             </div>
             <div className="col d-flex flex-column flex-md-row align-items-center p-2 border-2 shadow m-2">
               <img
-                src="../../public/services.png"
+                src="./services.png"
                 alt="Focus"
                 className="img-fluid me-3"
                 style={{ width: "50px", height: "50px" }}
@@ -269,7 +257,7 @@ const WasterMgmt = () => {
           <div className="row">
             <div className="col d-flex flex-column flex-md-row align-items-center p-2 border-2 shadow m-2">
               <img
-                src="../../public/services.png"
+                src="./services.png"
                 alt="Quality"
                 className="img-fluid me-3"
                 style={{ width: "50px", height: "50px" }}
@@ -281,7 +269,7 @@ const WasterMgmt = () => {
             </div>
             <div className="col d-flex flex-column flex-md-row align-items-center p-2 border-2 shadow m-2">
               <img
-                src="../../public/services.png"
+                src="./services.png"
                 alt="Reach"
                 className="img-fluid me-3"
                 style={{ width: "50px", height: "50px" }}

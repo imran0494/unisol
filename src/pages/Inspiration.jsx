@@ -18,7 +18,7 @@ const Inspiration = () => {
         <div className="row">
           <div className="col-md-2 col-lg-2 col-sm-12">
             <img
-              src="assets/img/inspiration/integrity-pic.png"
+              src="./integrity-pic.png"
               alt="Integrity"
               width="180"
               height="170"

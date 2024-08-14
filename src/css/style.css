@@ -442,7 +442,7 @@
   border-right: 4px solid rgb(158, 157, 157);
 }
 .cntbox {
-  background-image: url(assets/img/blue-paint-with-shade.jpg);
+  background-image: url(/blue-paint-with-shade.jpg);
 }
 .contbtn {
   margin-left: 9rem;
