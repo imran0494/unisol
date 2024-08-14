@@ -3,7 +3,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .container-our-1 {
-  background-image: url(assets/img/inspiration/inspiration-banner.png);
+  background-image: url(/inspiration-banner.png);
   height: 695px;
   width: 100%;
   background-repeat: no-repeat;
