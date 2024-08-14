@@ -1,0 +1,274 @@
+/* Global Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "HouschkaPro-Medium", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Container Styling */
+.startup-container {
+  font-family: "HouschkaPro-Medium", sans-serif;
+}
+
+/* Background Image Section */
+.startup-bg {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.startup-text {
+  color: white;
+  text-align: center;
+  padding: 0 2rem;
+  max-width: 100%;
+}
+
+.startup-text span {
+  color: #0096ff;
+}
+
+/* Content Section */
+.content-section {
+  padding: 2rem;
+}
+
+.content-section h1 {
+  font-size: 2rem;
+}
+
+.content-section p {
+  font-size: 1rem;
+}
+
+/* Center Text Section */
+.center-text {
+  text-align: center;
+  padding: 2rem;
+  max-width: 100%;
+}
+
+.center-text h3 {
+  font-size: 1.75rem;
+  color: #0096ff;
+}
+
+.center-text h1 {
+  font-size: 2.5rem;
+}
+
+.center-text p {
+  font-size: 1.25rem;
+  color: rgb(116, 116, 116);
+}
+
+/* Item List Section */
+.items-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+
+.item-button {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #000;
+  position: relative;
+  transition: color 0.3s;
+}
+
+/* Hover and active states */
+.item-button:hover,
+.item-button.active {
+  color: #0096ff;
+}
+
+/* Underline effect */
+.item-button:hover::after,
+.item-button.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  right: 25%;
+  height: 2px;
+  background-color: #0096ff;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.item-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.item-description {
+  text-align: left;
+  margin-left: 5%;
+  flex: 1;
+}
+
+.item-description h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.item-description p {
+  font-size: 1rem;
+  color: rgb(116, 116, 116);
+}
+
+.read-more-button {
+  background-color: #0096ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.read-more-button:hover {
+  background-color: #007acc;
+}
+
+/* Contact Us Section */
+.contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-us-text {
+  text-align: center;
+}
+
+.contact-us-text p {
+  font-size: 1.5rem;
+}
+
+.contact-us-text h2 {
+  font-size: 2.5rem;
+}
+
+.contact-us button {
+  background-color: #0096ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.contact-us button:hover {
+  background-color: #007acc;
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  text-align: left;
+}
+
+.profile-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.profile-content {
+  flex: 1;
+}
+
+.profile-content h1 {
+  font-size: 2rem;
+  color: #0096ff;
+}
+
+.profile-content h2 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.profile-content p {
+  font-size: 1rem;
+  color: rgb(116, 116, 116);
+}
+
+@media (max-width: 768px) {
+  .startup-bg {
+    height: 40vh;
+  }
+
+  .startup-text {
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  .startup-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .startup-text p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .startup-bg {
+    height: 30vh;
+  }
+
+  .startup-text {
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  .startup-text h1 {
+    font-size: 2rem;
+  }
+
+  .startup-text p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,179 @@
+#homeBanner {
+  height: 100vh;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../public/wastebanner1.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bannerContent {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  padding: 20px;
+  text-align: left;
+}
+
+.bghead {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.bgtext {
+  font-size: 2rem;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.brochers {
+  display: flex;
+}
+
+.txtLinks {
+  font-weight: 500;
+  padding: 5px;
+  margin: 2px;
+  background-color: aliceblue;
+}
+
+.txtLinks:hover {
+  cursor: pointer;
+  background-color: rgb(159, 235, 235);
+}
+
+.imgPostion {
+  margin-bottom: 16rem;
+}
+
+#map {
+  background-color: black;
+}
+
+#diagnosis {
+  background-image: url("../../public/img/stethoscope.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+#contactus-section {
+  background-color: rgba(7, 1, 37, 1);
+}
+
+.custom-border-bottom {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.custom-border-bottom::after {
+  content: "";
+  position: absolute;
+  left: 45%;
+  right: 45%;
+  bottom: 0;
+  border-bottom: 2px solid #17a2b8;
+}
+
+@media (max-width: 992px) {
+  #homeBanner {
+    background-position: top;
+  }
+
+  .bannerContent {
+    left: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  #homeBanner {
+    background-position: top;
+  }
+
+  .bghead {
+    font-size: 2rem;
+  }
+
+  .bgtext {
+    font-size: 1rem;
+  }
+
+  .bannerContent {
+    margin-top: 20%;
+    left: 10%;
+  }
+
+  .imgPostion {
+    margin-bottom: 12rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .bghead {
+    font-size: 1.75rem;
+  }
+
+  .bgtext {
+    font-size: 0.875rem;
+  }
+
+  .bannerContent {
+    margin-top: 30%;
+    left: 5%;
+  }
+
+  .imgPostion {
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .textCard .col {
+    margin: 1rem;
+  }
+
+  .disposals .col-sm {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #contactus-section {
+    padding: 1rem;
+  }
+
+  .col-md-6 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutUs .row {
+    flex-direction: column;
+  }
+
+  .aboutUs .col-sm-4,
+  .aboutUs .col-sm-8 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .textCard .row {
+    flex-direction: column;
+  }
+
+  .textCard .col {
+    margin-bottom: 1rem;
+  }
+}

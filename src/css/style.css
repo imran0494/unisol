@@ -1,0 +1,466 @@
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-our-1{
+  background-image: url(assets/img/inspiration/inspiration-banner.png);
+  height: 695px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-our-2{
+  background-image: url(/images/blur-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+.container-our-2 h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 80px;
+}
+.container-our-2  p{
+  font-size: 25px;
+  padding-left: 1em;  
+}
+
+.container-hospital-1{
+  background-image: url(/images/hospitalitybanner-1.png);
+  height: 695px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-hospital-1 h1{
+  color: white;
+  padding-top: 300px;
+  padding-left: 200px;
+  font-size: 80px;
+}
+
+.container-hospital-1 h4{
+  color: white;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+.container-hospital-2{
+  background-image: url(/images/hospitalbanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+.container-hospital-2 h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 80px;
+}
+.container-hospital-2 p{
+  font-size: 25px;
+  padding-left: 1em;  
+}
+.container-hospital-3 h3{
+  text-align: center;
+  padding-top: 40px;
+  color: rgb(70, 152, 246);
+}
+.container-hospital-3 h1{
+  text-align: center;
+  font-size: 50px;
+}
+.container-hospital-3 p{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(165, 163, 163);
+}
+
+.nav-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  /* overflow-x: auto; */
+  white-space: nowrap; 
+}
+.nav-tabs .nav-link{
+  border: none;
+ 
+}
+.nav-tabs .nav-link:hover{
+  text-decoration: underline;
+}
+
+
+/* .nav-item {
+  flex: 1 1 auto;
+  font-size: 30px;
+} */
+.dron-1{
+  padding-top: 60px;
+}
+.dron-1 h1{
+  font-size: 50px;
+}
+.dron-1 p{
+  padding-top: 30px;
+  word-spacing: 10px;
+ font-size: 20px;
+}
+.read-btn{
+  height: 60px;
+  text-align: center;
+  font-size: large;
+  color: white;
+  background-color: rgb(55, 193, 239);
+  
+}
+.read-btn:hover{
+  color: white;
+}
+
+.container-startup-1{
+  background-image: url(/images/stud-img1.jpg);
+  height: 695px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-startup-1 h1{
+  color: white;
+  padding-top: 300px;
+  padding-left: 200px;
+  font-size: 80px;
+
+}
+.container-startup-1 h4{
+  color: white;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+.container-startup-2{
+  background-image: url(/images/blur-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+.container-startup-2 h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 80px;
+}
+.container-startup-2 p{
+  font-size: 25px;
+  padding-left: 1em;  
+}
+.container-startup-3 h3{
+  text-align: center;
+  padding-top: 40px;
+  color: rgb(70, 152, 246);
+}
+.container-startup-3 h1{
+  text-align: center;
+  font-size: 50px;
+}
+.container-startup-3 p{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(165, 163, 163);
+}
+
+.nav-tabs {
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.nav-item {
+  flex: none; /* Prevent flex items from growing or shrinking */
+  width: auto; /* Allow tabs to be as wide as their content */
+}
+
+.nav-link {
+  text-align: center; /* Center align the tab text */
+  display: inline-block; /* Ensure the links are inline-block */
+}
+
+.container-waste-1 {
+  background-image: url(/images/wastebanner1.png);
+  height: 695px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bghead {
+  padding-top: 180px;
+  padding-left: 100px;
+  font-size: 60px;
+}
+.bgtext {
+  padding-left: 100px;
+}
+
+/* Default styles for larger screens */
+.nav-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap; 
+}
+.nav-tabs .nav-link {
+  border: transparent;
+}
+.nav-item {
+  /* flex: 1 1 auto; */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .nav-tabs {
+      overflow-x: auto;
+  }
+
+  .nav-item {
+      flex: none; 
+      width: auto; 
+  }
+
+  .nav-link {
+      text-align: center; 
+      display: inline-block; 
+  }
+}
+
+
+
+/* media query */
+@media (max-width:858px) {
+  .containerbg1 {
+      height: 300px;
+  }
+  .bghead {
+      padding-top: 140px;
+      padding-left: 10px;
+      font-size: 30px;   
+  }
+  .bgtext {
+      padding-left: 10px;
+  }
+
+}
+
+.container-healthcare-1{
+  background-image: url(/images/healthcarebanner-1.png);
+  height: 695px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-healthcare-1 h2{
+  color: white;
+  padding-top: 300px;
+  padding-left: 200px;
+  font-size: 80px;
+
+}
+.container-healthcare-1 h3{
+  color: white;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+.container-healthcare-2{
+  background-image: url(/images/blur-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+.container-healthcare-2 h2{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 64px;
+}
+.container-healthcare-2 p{
+  font-size: 25px;
+  padding-left: 1em; 
+  line-height: 36px; 
+}
+.container-healthcare-3 h3{
+  text-align: center;
+  padding-top: 40px;
+  color: rgb(70, 152, 246);
+}
+.container-healthcare-3 h1{
+  text-align: center;
+  font-size: 50px;
+}
+.container-healthcare-3 p{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(165, 163, 163);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+.homenavbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.home-navitem {
+  text-align: center;
+  margin: 0 15px;
+  font-size: larger;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.home-navitem img {
+  width: 40px; 
+  height: 40px;
+  margin-bottom: 5px; 
+}
+
+
+.homenavbar-nav + .d-flex {
+  margin-left: auto;
+}
+.nav-link {
+  color: black !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:focus,
+.nav-link:active {
+  color: rgb(13, 160, 204) !important;
+}
+.navimg img{
+  width: 7rem;
+}
+.navbtn{
+
+  width: 13rem;
+  height: 3rem;
+ 
+}
+.card{
+  width:22rem;
+  font-size: 14px;
+}
+.more{
+width: 25%;
+margin-left: 40%;
+
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item .row {
+  width: 100%;
+}
+
+.carousel-item .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.carousel-item iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  max-width: 360px; 
+  max-height: 202px; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+.box2{
+  background-image: url('./images/hBackgroud.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 400px; 
+  width: 100%; 
+}
+.carousel-item {
+  text-align: center;
+  padding: 20px;
+}
+.carousel-item p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+.carousel-item h5 {
+  font-weight: bold;
+}
+.carousel-item {
+          text-align: center;
+          padding: 20px;
+      }
+      .carousel-item p {
+          font-size: 1.2rem;
+          margin: 0;
+      }
+      .carousel-item h5 {
+          font-weight: bold;
+      }
+      .testimonials{
+          text-decoration: underline;   
+      }
+
+      .box3{
+          background-image: url('./images/stethoscope.jpg'); 
+          background-size: cover; 
+          background-position: center; 
+          background-repeat: no-repeat; 
+          height: 400px; 
+          width: 100%; 
+      }
+      .subbox3{
+       padding: 120px;
+      }
+      .subbox3 button{
+        width: 8rem;
+      
+      }
+
+    
+      .box4 {
+          height: 600px; 
+      }
+     
+      .subbox4{
+          background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for text */
+         height: 30rem;
+         width: 30rem;
+         margin-top: 50px;
+          border-radius: 5px;
+          padding: 20px;
+      }
+      .subbox5{
+          border-top: 4px solid rgb(158, 157, 157);
+          border-right: 4px solid rgb(158, 157, 157);
+      }
+      .cntbox{
+          background-image: url(assets/img/blue-paint-with-shade.jpg);
+      }
+     .contbtn{
+      margin-left: 9rem;
+     }
+.form-outline{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+   
