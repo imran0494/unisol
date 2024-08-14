@@ -494,7 +494,7 @@ const Home = () => {
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 mt-lg-5">
               <img
-                src="../../public/contact-us.png"
+                src="./contact-us.png"
                 alt=""
                 style={{ height: "90%", width: "80%" }}
               />
